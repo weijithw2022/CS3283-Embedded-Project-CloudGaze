@@ -10,3 +10,11 @@ This project, part of the Module CS3283 (Embedded Systems) in Semester 5, aims t
 - **Solar Panel** -: Automatically rotate the solar panel to follow the sun's direction
 - **Prior Notification** -: Send prior notificatons to alert when disturbances are detected, ensuring timely interventions to maintain solar panel efficiency
 
+## Timeline
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
