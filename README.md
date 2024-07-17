@@ -1,5 +1,4 @@
-# CS3283-Embedded-Project-CloudGaze
-Project Title: Solar Panel Disturbance Detection and Notification System
+## Solar Panel Disturbance Detection and Notification System
 
 Overview
 
