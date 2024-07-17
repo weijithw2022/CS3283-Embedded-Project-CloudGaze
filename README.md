@@ -14,7 +14,8 @@ This project, part of the Module CS3283 (Embedded Systems) in Semester 5, aims t
 
 | Week | Description |
 | ----------- | ----------- |
-| Week 1 | * Project Identification and Proposal </br>|
+| Week 1 | - Project Identification and Proposal </br>
+- Abcd|
 | Week 2 | Project Approval and Changes to be Made |
 
 
