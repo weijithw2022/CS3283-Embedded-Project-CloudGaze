@@ -12,9 +12,10 @@ This project, part of the Module CS3283 (Embedded Systems) in Semester 5, aims t
 
 ## Timeline
 
-| Syntax | Description |
+| Week | Description |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Week 1 | * Project Identification and Proposal </br>|
+| Week 2 | Project Approval and Changes to be Made |
+
 
 
