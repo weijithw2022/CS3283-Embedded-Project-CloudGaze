@@ -1,3 +1,10 @@
+/*
+  This code uses 3 LDR sensors (LDR1, LDR2, LDR3) to detect the direction of a moving cloud.
+  The idea is to determine whether the cloud is moving East or South based on the sequence 
+  in which the LDR values change by a certain threshold.
+
+*/
+
 enum Direction{
   North,
   East,
