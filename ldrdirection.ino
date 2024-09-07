@@ -64,14 +64,14 @@ void loop() {
     previousldrStatus3 = ldrStatus3;
   }
 
-  if(changeStatus2>threshold && changeStatus2> changeStatus3){
+  if(changeStatus1>threshold && changeStatus2>threshold && changeStatus2> changeStatus3){
     currentDirection = East;  
     Serial.println("Direction: East");
     while(true){
 
     }
   }
-  else if(changeStatus3>threshold && changeStatus3> changeStatus2){
+  else if(changeStatus1>threshold && changeStatus3>threshold && changeStatus3> changeStatus2){
     currentDirection = South;  
     Serial.println("Direction: South");
     while(true){
@@ -80,5 +80,4 @@ void loop() {
   }
   changeStatus2= 0;
   changeStatus3= 0;
-  delay(600);
 }
