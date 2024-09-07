@@ -28,13 +28,16 @@ int threshold = 50;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  previousldrStatus1 = analogRead(ldrPIN1);
+  previousldrStatus2 = analogRead(ldrPIN2);
+  previousldrStatus3 = analogRead(ldrPIN3);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   int ldrStatus1 = analogRead(ldrPIN1);
   int ldrStatus2 = analogRead(ldrPIN2);
-  int ldrStatus3 = analogRead(ldrPIN2);
+  int ldrStatus3 = analogRead(ldrPIN3);
   //Serial writes LDR values
   Serial.print("LDR1:");
   Serial.println(ldrStatus1);
@@ -61,13 +64,21 @@ void loop() {
     previousldrStatus3 = ldrStatus3;
   }
 
-  if(changeStatus2>changeStatus3){
+  if(changeStatus2>threshold && changeStatus2> changeStatus3){
     currentDirection = East;  
     Serial.println("Direction: East");
+    while(true){
+
+    }
   }
-  else{
+  else if(changeStatus3>threshold && changeStatus3> changeStatus2){
     currentDirection = South;  
     Serial.println("Direction: South");
+    while(true){
+      
+    }
   }
-
+  changeStatus2= 0;
+  changeStatus3= 0;
+  delay(600);
 }
